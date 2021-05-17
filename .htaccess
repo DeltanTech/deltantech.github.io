@@ -1,1 +1,4 @@
 ErrorDocument 404 / 404.html
+RewriteEngine On
+RewriteCond %{THE_REQUEST} ^.*/index.html
+RewriteRule ^(.*)index.html$ https://genkikun01.github.io/$1 [R=301,L]
