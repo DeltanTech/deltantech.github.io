@@ -1,1 +1,129 @@
-
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <meta name="description" content="げんきくん公式!!">
+        <link rel="icon" href="image/favicon.ico">
+        <link rel="stylesheet" href="css/style.css">
+        <title>Home | GenKiのブログ</title>
+        <script src="js/index.js"></script>
+        <script>
+            //Myfunction()
+            //var names = "font-size:20px;"
+            //var ke = "background-color:yellow; font-size:30px; color:red;"
+            //console.log("%c警告",ke)
+            //console.log("%cこのコンソールによくわからないコードなどを貼り付けたり入力しないでください。",names)
+        </script>
+    </head>
+    <body id="ffffff">
+        <div>
+            <header>
+                <nav class="topnav">
+                    <ul>
+                        <li><a style="color: brown; text-decoration: none; cursor: default; font-size: 20px;">Home</a></li>
+                        <li><a href="#title">About</a></li>
+                        <li><a href="#">Content</a></li>
+                        <li><a href="#">Setting</a></li>
+                        <li><a href="#">Language</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <div class="title">
+                <h1 id="title">GenKiのブログ</h1>
+            </div>
+            <div class="why">
+                <h2 style="padding-bottom: 15px;">このサイトって何?</h2>
+                <p>気軽に投稿していくブログです</p>
+                <p>これからも頑張っていきますので、温かい目で見てくださいね!!(^o^)</p>
+            </div>
+            <div class="time" id="tii">
+                <h2 style="padding-bottom: 15px;">現在時刻(正確)</h2>
+                <p>「時は金なり」時間を有効に使おう!</p>
+                <button onclick="zikan();" id="bu">時間を取得する</button>
+                <h3 id="write"></h3>
+            </div>
+            <div class="information">
+                <h2 style="text-align: center; padding-bottom: 15px;">最新のお知らせ</h2>
+                <p style="text-align: center;">※過去のお知らせは<a href="#">こちら</a>をご覧ください。</p>
+                <p style="text-align: center;">スクロールできます!!</p>
+                <div style="padding-left: 30px;" class="informationone">
+                    <dl>
+                        <dt>2021/3/20</dt>
+                        <dd>サイトのデザインをリニューアルしました。</dd>
+                        <dt>2021/3/21</dt>
+                        <dd>基本情報技術者試験を受けたい。</dd>
+                        <dt>2021/3/22</dt>
+                        <dd>これからもがんばりますね!!</dd>
+                        <dt>2021/3/30</dt>
+                        <dd>時間を追加しました。</dd>
+                    </dl>
+                </div>
+            </div>
+            <div class="main">
+                <h2><small>2021/3/21:</small>毎日がEveryDay</h2>
+                <p>●今日はとっても楽しい一日でした。これからも頑張っていきます!!</p>
+                <p>只今、サイトリニューアルに向けての開発を行っております</p>
+                <p>皆様が楽しめる機能が盛りだくさんです!!楽しみにしていてください。</p>
+                <p>また、リニューアル後このサイトの名前を「GenKiのブログ」ではなくほかの名前に命名しようと、考えております</p>
+            </div>
+            <div class="comment">
+                <h2 style="text-align: center; padding-bottom: 15px;">コメントを残す</h2>
+                <p style="text-align: center;">このフォームには<strong>不適切な発言をしないで</strong>ください。</p>
+                <form method="POST" action="https://script.google.com/macros/s/AKfycbyPCV4aQEEnR6vZfT_jN6-bUiv0Pmrfl9f3kJzL9bOzQRY4eQuB8ozWJzLiOPP07h09vQ/exec">
+                    <table style="margin: auto;">
+                        <tr>
+                            <th>メールアドレス: </th><th><input type="email" size="30" placeholder="内容によっては返信します" id="pass" name="one"></th>
+                        </tr>
+                        <tr>
+                            <th>入力内容を暗号化する: </th><th><input type="button" value="X" onclick="show();" id="butt" style="width: 50px; height: 50px; background-color: ghostwhite;"></th>
+                        </tr>
+                        <tr>
+                            <th>内容: </th><th><textarea style="border-radius: 5px; border-color: black; font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;" name="two" id="" cols="40" rows="5" placeholder="励みになるコメントを" style="background-color: ghostwhite;"></textarea></th>
+                        </tr>
+                        <tr>
+                            <th></th><th><button>送信</button></th>
+                        </tr>
+                    </table>
+                </form>
+            </div>
+            <div class="wow">
+                <h2 style="margin-bottom: 15px;">サイトを変更してみよう!!</h2>
+                <button onclick="henkou()">タイトルを変更する</button>
+                <button onclick="henkou1()">リセット</button>
+            </div>
+            <div class="dev">
+                <h1 style="padding-bottom: 15px;">DeveloperTool</h1>
+                <p>ここの欄の操作は自己責任でお願いします</p>
+                <p>テスト機能ですので不用意にいじると操作が安定しない可能性があります。</p>
+                <table style="margin: auto;">
+                    <tr>
+                        <th><button id="myButton" onclick="myFunc()">実行する(非推奨)</button></th>
+                    </tr>
+                    <tr>
+                        <th><progress id="myProgress" max="100" value="0"  style="width: 200px; height: 25px;"></progress></th>
+                    </tr>
+                    <tr>
+                        <th><p id="p">0%</p></th>
+                    </tr>
+                    <tr>
+                        <th><input type="color" id="iro" value="#ffffff"></th>
+                    </tr>
+                    <tr></tr>
+                </table>
+            </div>
+            <footer style="text-align: center;">
+            <hr>
+            <nav>
+                <ul style="list-style: none;">
+                    <li><a href="">メニュー1</a></li>
+                    <li><a href="">メニュー2</a></li>
+                    <li><a href="">メニュー3</a></li>
+                </ul>
+            </nav>
+            <p>無断複写・転載を禁止します。</p>
+            <p><small>Copyright © 2020-2021 <a href="#" style="color:rgb(0, 140, 255)(0, 119, 255); text-decoration: none;">GenkiKun01</a> inc. All Rights Reserved.</small></p>
+            </footer>
+        </div>
+    </body>
+</html>
