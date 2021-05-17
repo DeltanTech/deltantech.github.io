@@ -1,0 +1,271 @@
+    color: black;
+}
+header .topnav ul{
+    background-color: wheat;
+    list-style: none;
+    text-align: center;
+    border-radius: 0px 0px 15px 15px;
+    border-bottom: 1px black solid;
+    padding: 15px;
+    font-size: 20px;
+    opacity: 0.7;
+    position: fixed;
+    margin: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+header .topnav ul:hover{
+    opacity: 1;
+    box-shadow: 3px 3px 5px black;
+}
+header .topnav li{
+    display: inline;
+    padding-left: 15px;
+}
+header .topnav ul li a{
+    text-decoration: none;
+    color: rgb(0, 140, 255);
+    font-family: Yu Gothic Medium;
+    font-weight: bold;
+}
+header .topnav ul li a:hover{
+    color: brown;
+    text-decoration: underline;
+    cursor: pointer;
+}
+header .topnav ul li a:active{
+    font-size: 19px;
+}
+.title h1{
+    margin-top: 100px;
+    background-color: rgb(0, 140, 255);
+    text-align: center;
+    color: white;
+    padding: 30px;
+    font-size: 30px;
+    border-radius: 100px;
+    border:double black 10px;
+}
+.title h1:hover{
+    background-color: rgb(133, 200, 255);
+    color: black;
+    box-shadow: 3px 3px 5px black;
+}
+.why{
+    background-color: gainsboro;
+    border-left: rgb(0, 140, 255) solid 3px;
+    border-right: rgb(0, 140, 255) solid 3px;
+    border-bottom: grey solid 3px;
+    text-align: center;
+    padding: 15px;
+    border-radius: 5px;
+}
+.why:hover{
+    box-shadow: 3px 3px 5px black;
+}
+.information{
+    background-color: gainsboro;
+    border-left: rgb(0, 140, 255) solid 3px;
+    border-right: rgb(0, 140, 255) solid 3px;
+    border-bottom: grey solid 3px;
+    padding: 15px;
+    border-radius: 5px;
+    margin-top: 15px;
+    overflow: scroll;
+    height: 150px;
+}
+.information:hover{
+    box-shadow: 3px 3px 5px black;
+}
+.informationone dt{
+    font-weight: bold;
+}
+.informationone dd{
+    padding-bottom: 15px;
+}
+.information a{
+    color: rgb(0, 140, 255);
+    text-decoration: none;
+}
+.information a:hover{
+    color: brown;
+    text-decoration: underline;
+}
+.information a:active{
+    font-size: 12px;
+}
+.main{
+    background-color: rgb(255, 200, 152);
+    border-left: rgb(0, 140, 255) solid 3px;
+    border-right: rgb(0, 140, 255) solid 3px;
+    border-bottom: grey solid 3px;
+    padding: 15px;
+    margin-top: 15px;
+    padding-left: 30px;
+    border-radius: 5px;
+}
+.main:hover{
+    box-shadow: 3px 3px 5px black;
+}
+.main h2{
+    text-align: center;
+    padding-bottom: 15px;
+}
+.comment{
+    background-color: gainsboro;
+    border-left: rgb(0, 140, 255) solid 3px;
+    border-right: rgb(0, 140, 255) solid 3px;
+    border-bottom: grey solid 3px;
+    padding: 15px;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+.comment input{
+    border: solid 1px black;
+    border-radius: 3px;
+    background-color: ghostwhite;
+    height: 50px;
+    font-size: 18px;
+}
+.comment button{
+    background-color: rgb(0, 140, 255);
+    border: 0px solid;
+    border-radius: 10px;
+    padding: 15px;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+    box-shadow: 3px 3px 5px black;
+}
+.comment button:hover{
+    background-color: rgb(0, 110, 255);
+    box-shadow: black 0px 0px 0px;
+    color: black;
+}
+.comment:hover{
+    box-shadow: 3px 3px 5px black;
+}
+.comment button:active{
+    font-size: 18px;
+}
+footer a{
+    color: rgb(0, 140, 255);
+    text-decoration: none;
+}
+footer a:hover{
+    color: brown;
+    text-decoration: underline;
+}
+footer li{
+    display: inline;
+    font-size: 18px;
+}
+.wow{
+    background-color: gainsboro;
+    border-left: rgb(0, 140, 255) solid 3px;
+    border-right: rgb(0, 140, 255) solid 3px;
+    border-bottom: grey solid 3px;
+    padding: 15px;
+    border-radius: 5px;
+    margin-top: 15px;
+    text-align: center;
+}
+.wow button{
+    background-color: rgb(0, 140, 255);
+    border: 0px solid;
+    border-radius: 10px;
+    padding: 15px;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+    box-shadow: 3px 3px 5px black;
+}
+.wow button:hover{
+    box-shadow: black 0px 0px 0px;
+    color: black;
+    background-color: rgb(0, 110, 255);
+}
+.wow button:active{
+    font-size: 18px;
+}
+.dev{
+    background-color: gainsboro;
+    border-left: rgb(36, 38, 39) solid 3px;
+    border-right: rgb(0, 140, 255) solid 3px;
+    border-bottom: grey solid 3px;
+    padding: 15px;
+    border-radius: 5px;
+    margin-top: 15px;
+    text-align: center;
+}
+.dev #myButton{
+    background-color: rgb(150, 0, 0);  
+    color: white;
+    padding: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+.dev #myButton:hover{
+    background-color: rgb(100, 0, 0);
+    box-shadow: 3px 3px 10px 3px black;
+}
+.dev #myButton:active{
+    font-size: 13px;
+}
+#myButton:disabled:hover{
+    background-color: rgb(100, 100, 100);
+    cursor: not-allowed;
+    box-shadow: none;
+    font-size: 13px;
+    color: gray;
+}
+#myButton:disabled{
+    background-color: rgb(100, 100, 100);
+    cursor: not-allowed;
+    box-shadow: none;
+    font-size: 13px;
+    color: gray;
+}
+.time{
+    background-color: gainsboro;
+    border-left: rgb(36, 38, 39) solid 3px;
+    border-right: rgb(0, 140, 255) solid 3px;
+    border-bottom: grey solid 3px;
+    padding: 15px;
+    border-radius: 5px;
+    margin-top: 15px;
+    text-align: center;
+}
+.time button{
+    background-color: rgb(0, 140, 255);
+    border: 0px solid;
+    border-radius: 10px;
+    padding: 15px;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+    box-shadow: 3px 3px 5px black;
+}
+.time button:hover{
+    box-shadow: black 0px 0px 0px;
+    color: black;
+    background-color: rgb(0, 110, 255);
+}
+.time button:active{
+    font-size: 18px;
+}
